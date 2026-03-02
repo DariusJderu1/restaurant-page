@@ -51,7 +51,7 @@
     --fs-body: clamp(1rem, 1vw + 0.25rem, 1.125rem);
 
     /* Navigația din header (Home, Menu, Contact) și prețurile */
-    --fs-nav: clamp(1.15rem, 1.5vw, 1.35rem);
+    --fs-nav: clamp(1.2rem, 1.7vw, 1.65rem);
 
     /* Pentru Numele Restaurantului (Logo-ul text) din Navbar */
     --fs-logo: clamp(2.5rem, 2.5vw + 0.5rem, 3.5rem);

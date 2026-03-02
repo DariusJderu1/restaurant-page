@@ -38,8 +38,11 @@ header {
         color: var(--clr-text-light);
         font-size: var(--fs-nav);
     }
-
     .nav-link:hover {
+
+        color: var(--clr-accent-primary);
+    }
+    #home-button {
 
         color: var(--clr-accent-primary);
     }
