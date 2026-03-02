@@ -1,0 +1,26 @@
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--clr-nav-bg);
+
+    padding: 5px;
+}
+
+header div:first-of-type {
+
+    width: 70%;
+
+    display: flex;
+    justify-content: space-between;
+
+    span {
+
+        color: var(--clr-accent-primary);
+        font-size: var(--fs-logo);
+
+        font-family: "Pacifico", cursive;
+    }
+}

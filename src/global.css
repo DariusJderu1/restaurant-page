@@ -6,38 +6,65 @@
 }
 
 :root {
-    
-    /* Fundalul principal - un crem cald, ca un aluat sau o foaie de meniu vintage */
-    --clr-bg-main: #fcf9f2; 
-    
-    /* Accentul principal - un roșu "Tomato/Chili", perfect pentru butoane și logo. Atrage ochiul instant. */
-    --clr-accent-primary: #d9381e; 
-    
-    /* Accentul secundar - un portocaliu stins/auriu, bun pentru subtitluri sau hover pe butoane */
-    --clr-accent-secondary: #e88d3f; 
-    
-    /* Textul principal - un gri cărbune (charcoal) foarte închis. Niciodată să nu folosești negru pur (#000), obosește ochii! */
-    --clr-text-main: #2b2b2b;
-    
-    /* Culoare pentru textul care stă pe butoanele roșii (alb pur) */
-    --clr-text-light: #ffffff;
-    
-    /* Fundal semi-transparent pentru carduri (un efect de "frosted glass" luminos) */
-    --clr-glass-bg: rgba(255, 255, 255, 0.7);
+    /* =========================================
+       🎨 PALETA DE CULORI (Mediterranean Vibe)
+       ========================================= */
+
+    /* Fundalul principal pentru site (înlocuiește acel galben-pal din pagina de meniu) */
+    --clr-bg-main: #f9f6f0; 
+
+    /* Culoarea pentru Header/Navbar (înlocuiește albastrul închis din pozele tale) */
+    --clr-nav-bg: #2c423f; 
+
+    /* Accent principal - un roșu-teracotă vibrant pentru logo, butoane (Ex: "Order Now") și prețuri */
+    --clr-accent-primary: #d35400; 
+
+    /* Accent secundar - un auriu/muștar stins pentru subtitluri sau efecte de hover */
+    --clr-accent-secondary: #e6a817; 
+
+    /* Fundalul pentru cardurile de mâncare din meniu (înlocuiește acel roz/somon din poza 5) 
+       Aici am pus un alb curat ca să iasă frumos în evidență pe fundalul crem */
+    --clr-card-bg: #ffffff; 
+
+    /* Textul principal de citit (paragrafe, descrieri din meniu) */
+    --clr-text-main: #333333; 
+
+    /* Text deschis (pentru linkurile din navigație sau textul de pe butoanele teracotă) */
+    --clr-text-light: #fdfdfd;
+
+    /* Fundalul semi-transparent pentru cardul de contact de pe Home (frosted glass) */
+    --clr-glass-bg: rgba(44, 66, 63, 0.85); /* Un verde închis transparent */
 
 
-    /* === DIMENSIUNI FONTURI RESPONSIVE (Magia clamp) === */
-    /* clamp(minim_pe_telefon, ideal_dinamic, maxim_pe_monitor) */
+    /* =========================================
+       📏 FONT SIZE RESPONSIVE (Magia Clamp)
+       ========================================= */
+    /* Regula: clamp(MINIM pe telefon, IDEAL dinamic, MAXIM pe PC) */
 
-    /* Pentru Titlul uriaș (Hero Text) */
+    /* Titlul uriaș de pe Home ("Come on down...") */
     --fs-h1: clamp(2.5rem, 5vw + 1rem, 4.5rem);
 
-    /* Pentru Subtitluri de secțiuni */
+    /* Titlurile de secțiuni (Ex: "Menu", sau numele burgerilor) */
     --fs-h2: clamp(1.5rem, 3vw + 0.5rem, 2.5rem);
 
-    /* Pentru textul normal (paragrafe, adrese, program) */
-    --fs-body: clamp(1rem, 1vw + 0.5rem, 1.125rem);
+    /* Textul normal (descrierea mâncării, adresa) */
+    --fs-body: clamp(1rem, 1vw + 0.25rem, 1.125rem);
 
-    /* Pentru navigație și detalii mici */
-    --fs-small: clamp(0.875rem, 0.5vw + 0.7rem, 1rem);
+    /* Navigația din header (Home, Menu, Contact) și prețurile */
+    --fs-nav: clamp(0.9rem, 1.5vw, 1.1rem);
+
+    /* Pentru Numele Restaurantului (Logo-ul text) din Navbar */
+    --fs-logo: clamp(2.5rem, 2.5vw + 0.5rem, 3.5rem);
+}
+
+body {
+
+    font-family: "Montserrat", sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button {
+
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
