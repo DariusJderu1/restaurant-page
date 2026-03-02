@@ -1,0 +1,43 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    /* Fundalul principal - un crem cald, ca un aluat sau o foaie de meniu vintage */
+    --clr-bg-main: #fcf9f2; 
+    
+    /* Accentul principal - un roșu "Tomato/Chili", perfect pentru butoane și logo. Atrage ochiul instant. */
+    --clr-accent-primary: #d9381e; 
+    
+    /* Accentul secundar - un portocaliu stins/auriu, bun pentru subtitluri sau hover pe butoane */
+    --clr-accent-secondary: #e88d3f; 
+    
+    /* Textul principal - un gri cărbune (charcoal) foarte închis. Niciodată să nu folosești negru pur (#000), obosește ochii! */
+    --clr-text-main: #2b2b2b;
+    
+    /* Culoare pentru textul care stă pe butoanele roșii (alb pur) */
+    --clr-text-light: #ffffff;
+    
+    /* Fundal semi-transparent pentru carduri (un efect de "frosted glass" luminos) */
+    --clr-glass-bg: rgba(255, 255, 255, 0.7);
+
+
+    /* === DIMENSIUNI FONTURI RESPONSIVE (Magia clamp) === */
+    /* clamp(minim_pe_telefon, ideal_dinamic, maxim_pe_monitor) */
+
+    /* Pentru Titlul uriaș (Hero Text) */
+    --fs-h1: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+
+    /* Pentru Subtitluri de secțiuni */
+    --fs-h2: clamp(1.5rem, 3vw + 0.5rem, 2.5rem);
+
+    /* Pentru textul normal (paragrafe, adrese, program) */
+    --fs-body: clamp(1rem, 1vw + 0.5rem, 1.125rem);
+
+    /* Pentru navigație și detalii mici */
+    --fs-small: clamp(0.875rem, 0.5vw + 0.7rem, 1rem);
+}
