@@ -1,2 +1,2 @@
-import "./global.css";
-import "./header.css"
+import "./css/global.css";
+import "./css/header.css"
