@@ -8,4 +8,7 @@
     align-items: center;
 
     background-image: url("../images/pizza-background-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
