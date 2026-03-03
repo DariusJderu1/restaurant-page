@@ -1,4 +1,0 @@
-import "./css/global.css";
-import "./css/header.css"
-import "./css/home.css";
-import "./css/footer.css";
