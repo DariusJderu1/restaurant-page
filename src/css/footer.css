@@ -1,0 +1,15 @@
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    font-size: var(--fs-body);
+    font-weight: 600;
+
+    background-color: var(--clr-nav-bg);
+    color: var(--clr-text-light);
+}
