@@ -11,7 +11,7 @@
        ========================================= */
 
     /* Fundalul principal pentru site (înlocuiește acel galben-pal din pagina de meniu) */
-    --clr-bg-main: #f9f6f0; 
+    --clr-bg-main: #e8dcc4; 
 
     /* Culoarea pentru Header/Navbar (înlocuiește albastrul închis din pozele tale) */
     --clr-nav-bg: #2c423f; 
@@ -24,7 +24,7 @@
 
     /* Fundalul pentru cardurile de mâncare din meniu (înlocuiește acel roz/somon din poza 5) 
        Aici am pus un alb curat ca să iasă frumos în evidență pe fundalul crem */
-    --clr-card-bg: #ffffff; 
+    --clr-card-bg: #85967d; 
 
     /* Textul principal de citit (paragrafe, descrieri din meniu) */
     --clr-text-main: #333333; 
@@ -48,7 +48,7 @@
     --fs-h2: clamp(1rem, 1.5vw + 0.5rem, 1.8rem);
 
     /* Textul normal (descrierea mâncării, adresa) */
-    --fs-body: clamp(1rem, 1vw + 0.25rem, 1.125rem);
+    --fs-body: clamp(1.25rem, 1vw + 0.25rem, 1.25rem);
 
     /* Navigația din header (Home, Menu, Contact) și prețurile */
     --fs-nav: clamp(1.2rem, 1.7vw, 1.65rem);
