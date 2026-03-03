@@ -18,7 +18,7 @@ div.hero-card {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: clamp(0.8rem, 1.5vw, 1.3rem);
+    gap: clamp(1rem, 1.5vw, 1.5rem);
 
     background-color: var(--clr-glass-bg);
     padding: 4.5rem 4rem;
@@ -35,4 +35,21 @@ div.hero-card {
 
     font-size: var(--fs-h2);
     color: var(--clr-accent-secondary);
+}
+
+.home-container button {
+
+    background-color: var(--clr-accent-primary);
+    color: var(--clr-text-light);
+
+    font-size: var(--fs-nav);
+
+    padding: 0.5em 1.5em;
+    
+    border-radius: 2em;
+
+    &:hover {
+
+        background-color: var(--clr-accent-secondary);
+    }
 }
