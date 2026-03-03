@@ -99,6 +99,7 @@ const renderMenuPage = () => {
         // price p
         const pPrice = document.createElement("p");
         pPrice.innerText = item.price;
+        pPrice.classList.add("price");
         foodItem.appendChild(pPrice);
 
         // add card in div.food-container
