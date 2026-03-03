@@ -1,6 +1,6 @@
 import "../css/home.css";
 
-// function for renderin the homepage
+// function for rendering the homepage
 const renderHomePage = () => {
 
     // div#content

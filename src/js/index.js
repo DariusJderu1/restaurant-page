@@ -5,8 +5,11 @@ import "../css/footer.css";
 import "../css/menu.css";
 
 import { renderHomePage } from "./home.js";
+import { renderMenuPage } from "./menu.js";
 
 const renderPages = (() => {
+
+    renderHomePage();
 
     const contentContainer = document.getElementById("content");
     const homeButton = document.getElementById("home-button");
@@ -26,6 +29,18 @@ const renderPages = (() => {
         clearContentContainer();
 
         renderHomePage();
+    });
+
+    menuButton.addEventListener("click", () => {
+
+        // color the selected buttons
+        homeButton.classList.remove("selected-nav-link");
+        menuButton.classList.add("selected-nav-link");
+        contactButton.classList.remove("selected-nav-link");
+
+        clearContentContainer();
+
+        renderMenuPage();
     });
 
 })();
