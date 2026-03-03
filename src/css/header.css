@@ -42,7 +42,8 @@ header {
 
         color: var(--clr-accent-primary);
     }
-    #home-button {
+    
+    .selected-nav-link {
 
         color: var(--clr-accent-primary);
     }
