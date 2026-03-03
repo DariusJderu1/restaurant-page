@@ -2,6 +2,8 @@ import "../css/global.css";
 import "../css/header.css"
 import "../css/footer.css";
 
+import "../css/menu.css";
+
 import { renderHomePage } from "./home.js";
 
 const renderPages = (() => {
@@ -27,9 +29,6 @@ const renderPages = (() => {
     });
 
 })();
-
-
-renderHomePage();
 
 
 
