@@ -1,0 +1,54 @@
+.contact-container {
+
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--clr-bg-main);
+
+    font-size: var(--fs-body);
+}
+
+.contact-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    background-color: var(--clr-card-bg);
+
+    padding: 35px 40px;
+    border-radius: 15px;
+}
+.phone-number {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span:nth-child(2) {
+
+        color: var(--clr-bg-main);
+    }
+}
+
+.location-text {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span:nth-child(2) {
+        
+        color: var(--clr-bg-main);
+    }
+}
+.location-picture {
+
+    display: block;
+
+    width: 700px;
+    height: auto;
+}

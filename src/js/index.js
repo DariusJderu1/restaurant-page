@@ -2,14 +2,15 @@ import "../css/global.css";
 import "../css/header.css"
 import "../css/footer.css";
 
-import "../css/menu.css";
+//to delete
+import "../css/contact.css";
 
 import { renderHomePage } from "./home.js";
 import { renderMenuPage } from "./menu.js";
 
 const renderPages = (() => {
 
-    renderHomePage();
+    //renderHomePage();
 
     const contentContainer = document.getElementById("content");
     const homeButton = document.getElementById("home-button");
